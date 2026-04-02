@@ -2,7 +2,7 @@
 
 -export([render/2, render_focused/2, new/1, handle_event/2, state/2]).
 
--include("cellium.hrl").
+-include_lib("cellium/include/cellium.hrl").
 -import(widget, [get_common_props/1]).
 
 -spec new(term()) -> map().

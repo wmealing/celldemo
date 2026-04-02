@@ -1,7 +1,7 @@
 -module(customer_form).
 
 -behavior(cellium).
--include("cellium.hrl").
+-include_lib("cellium/include/cellium.hrl").
 
 -export([init/1, render/1, update/2, start/0]).
 

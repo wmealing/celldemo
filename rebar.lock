@@ -1,1 +1,4 @@
-[].
+[{<<"cellium">>,
+  {git,"https://github.com/wmealing/cellium.git",
+       {ref,"43e51462027680d206e2ed897a84092ce4817a0d"}},
+  0}].
