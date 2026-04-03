@@ -1,4 +1,4 @@
 [{<<"cellium">>,
   {git,"https://github.com/wmealing/cellium.git",
-       {ref,"43e51462027680d206e2ed897a84092ce4817a0d"}},
+       {ref,"e1b59f8672b7f9c41e668e9b40d37a8e39e25e77"}},
   0}].
