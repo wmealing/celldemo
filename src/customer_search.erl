@@ -6,8 +6,6 @@
 -export([init/1, render/1, update/2, start/0, build_search_screen/1, build_form_screen/1]).
 
 init(_Args) ->
-    data:init(),
-
     Model = #{
         current_screen => search,
         search_email => text_input:state(""),
@@ -288,7 +286,7 @@ build_form_screen(Model) ->
     ]}.
 
 start() ->
-    application:ensure_all_started(cellium),
+    application:ensure_all_started(foobar),
     cellium:start(#{
         module => ?MODULE,
         auto_focus => true

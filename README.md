@@ -1,7 +1,7 @@
-foobar
+Cellium Demo
 =====
 
-A demo OTP application showcasing Erlang/OTP patterns.
+A demo OTP application attempting to show the use of cellium from another project. 
 
 Build
 -----
